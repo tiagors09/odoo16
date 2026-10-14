@@ -1,0 +1,14 @@
+[[config]]
+name = "default"
+
+addons_paths = [
+  "../odoo/addons",
+  "./addons"
+]
+
+python_path = ".venv/bin/python"
+
+file_cache = true
+diag_missing_imports = "all"
+ac_filter_model_names = true
+auto_refresh_delay = 1000
